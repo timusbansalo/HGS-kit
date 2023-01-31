@@ -1,0 +1,145 @@
+﻿  Class0.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\Class0.cpp(388,3): error C2290: C++ 'asm' syntax ignored. Use __asm.
+  Class1.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\Class1.cpp(50,3): error C2290: C++ 'asm' syntax ignored. Use __asm.
+  HarnessSleep.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\HarnessSleep.cpp(2,1): warning C4005: '_WIN32_WINNT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\sdkddkver.h(223,1): message : see previous definition of '_WIN32_WINNT'
+  HGSharnessapp.cpp
+  HGS_harness_program.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\HGS_harness_program.cpp(160,7): warning C4101: 'Buffer': unreferenced local variable
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\HGS_harness_program.cpp(222,28): warning C4477: 'printf' : format string '%llu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'long'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\HGS_harness_program.cpp(222,28): message : consider using '%lu' in the format string
+  INT8.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(15,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(16,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(16,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(17,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(17,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(17,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(18,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(18,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(18,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(19,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(19,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(19,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(20,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(20,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(20,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\INT8.cpp(21,3): error C2143: syntax error: missing ';' before '}'
+  PAUSE.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(11,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(12,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(13,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(14,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(15,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(16,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(17,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(18,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(19,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\PAUSE.cpp(20,15): error C2290: C++ 'asm' syntax ignored. Use __asm.
+  UserMWait.cpp
+  VNNI.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(13,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(14,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(14,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(15,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(15,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(15,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(16,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(16,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(16,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(17,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(17,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(17,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(18,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(18,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(18,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(20,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(20,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(20,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(21,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(21,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(21,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(22,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(22,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(22,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(23,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(23,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(23,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(24,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(24,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(24,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(26,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(26,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(26,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(27,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(27,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(27,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(28,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(28,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(28,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(29,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(29,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(29,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(30,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(30,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(30,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(32,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(32,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(32,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(33,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(33,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(33,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(34,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(34,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(34,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(35,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(35,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(35,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(36,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(36,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(36,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(39,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(39,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(39,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(40,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(40,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(40,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(41,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(41,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(41,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(42,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(42,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(42,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(43,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(43,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(43,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(45,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(45,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(45,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(46,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(46,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(46,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(47,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(47,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(47,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(48,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(48,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(48,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(49,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(49,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(49,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(51,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(51,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(51,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(52,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(52,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(52,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(53,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(53,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(53,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(54,4): error C2146: syntax error: missing ';' before identifier '_emit'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(54,4): error C2065: '_emit': undeclared identifier
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(54,10): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\sumitban\OneDrive - Intel Corporation\Desktop\Hybrid-tools\hgsharnessapp\HGSharnessapp\VNNI.cpp(54,10): fatal  error C1003: error count exceeds 100; stopping compilation

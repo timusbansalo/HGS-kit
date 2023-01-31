@@ -1,0 +1,87 @@
+﻿  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+  1 warning generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+  1 warning generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+HarnessSleep.cpp(2,9): : warning : '_WIN32_WINNT' macro redefined [-Wmacro-redefined]
+  #define _WIN32_WINNT 0x0500
+          ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\sdkddkver.h(223,10): note: previous definition is here
+  #define  _WIN32_WINNT   0x0A00
+           ^
+  2 warnings generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+  1 warning generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+HGS_harness_program.cpp(160,7): : warning : unused variable 'Buffer' [-Wunused-variable]
+          char Buffer[_MAX_PATH];
+               ^
+HGS_harness_program.cpp(198,47): : warning : format specifies type 'int' but the argument has type 'long' [-Wformat]
+                  if (duration != -1) printf(" for %d[msec]", duration);
+                                                   ~~         ^~~~~~~~
+                                                   %ld
+HGS_harness_program.cpp(222,59): : warning : format specifies type 'unsigned long long' but the argument has type 'long' [-Wformat]
+                  if (timeOut != 0) printf("Test Duration %llu [msec]\n", timeOut);
+                                                          ~~~~            ^~~~~~~
+                                                          %ld
+  4 warnings generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+  1 warning generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+  1 warning generated.
+  In file included from <built-in>:394:
+<command line>(4,9): : warning : '__INTEL_LLVM_COMPILER' macro redefined [-Wmacro-redefined]
+  #define __INTEL_LLVM_COMPILER 20220200
+          ^
+  <built-in>(7,9): note: previous definition is here
+  #define __INTEL_LLVM_COMPILER 20220201
+          ^
+UserMWait.cpp(15,3): : error : use of undeclared identifier '_umonitor'
+                  _umonitor(&mon);
+                  ^
+UserMWait.cpp(16,3): : error : use of undeclared identifier '_umwait'
+                  _umwait(0, tmp);
+                  ^
+  1 warning and 2 errors generated.

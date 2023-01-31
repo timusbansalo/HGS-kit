@@ -1,0 +1,97 @@
+;
+; Solar.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=SolarHal ;
+ClassGuid= {BA0409CA-0363-45EE-AE7F-5FB75943197D}  ;
+Provider=%ManufacturerName%
+CatalogFile=SolarHal.cat
+DriverVer = 09/24/2021,3.21.390.0
+PnpLockdown=1
+[DestinationDirs]
+DefaultDestDir = 12
+SolarHal_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+SolarHal.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%SolarHal.DeviceDesc%=SolarHal_Device, Root\SolarHal
+
+[SolarHal_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+SolarHal.sys
+
+;-------------- Service installation
+[SolarHal_Device.NT.Services]
+AddService = SolarHal,%SPSVCINST_ASSOCSERVICE%, SolarHal_Service_Inst
+
+; -------------- Solar driver install sections
+[SolarHal_Service_Inst]
+DisplayName    = %SolarHal.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\SolarHal.sys
+LoadOrderGroup = Extended Base
+
+;
+;--- Solar_Device Coinstaller installation ------
+;
+
+;[DestinationDirs]
+;SolarHal_Device_CoInstaller_CopyFiles = 11
+
+[SolarHal_Device.NT.CoInstallers]
+AddReg=SolarHal_Device_CoInstaller_AddReg
+CopyFiles=SolarHal_Device_CoInstaller_CopyFiles
+
+[SolarHal_Device_CoInstaller_AddReg]
+;
+
+
+[SolarHal_Device_CoInstaller_CopyFiles]
+;
+
+
+;[SourceDisksFiles]
+;WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1 ; make sure the number matches with SourceDisksNames
+
+[SolarHal_Device.NT.Wdf]
+KmdfService =  SolarHal, SolarHal_wdfsect
+[SolarHal_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Intel Corporation"
+ClassName="SolarHal" ;
+DiskName = "SolarHal Installation Disk"
+SolarHal.DeviceDesc = "SolarHal Device"
+SolarHal.SVCDESC = "SolarHal Service"
+

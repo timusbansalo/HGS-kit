@@ -1,0 +1,22 @@
+Input flags details:
+
+https://wiki.ith.intel.com/display/WOSEXT/WosHeteroStats?preview=/1733232936/1732032112/WosHeteroStats_Manual.pdf
+
+
+Example for MTL 6+8+2:
+
+WosHeteroStats_Internal.exe -i input.etl -o output.csv -big 0xffc03 -small 0x3003fc -smt 0xffc03 -cDie 0xFFFFF -socDie 0x300000 -hgsplus
+
+
+* HGS+ updates stats and values must be in the "output_hgs+Stats.csv" file
+
+* HGS+ class feed back read must be in the "output_hgs+FeedbackReads.csv" file
+* HGS+ class update must be in the "output_hgs+lassUpdate.csv" file
+
+Please note that the class feedback read and update will be available only if the PERF_THREAD_FEEDBACK_READ (0xA0000080) and PERF_WORKLOAD_CLASS_UPDATE (0xA0000100) is enabled
+
+Use these scripts to collect the ETL trace (it has all the required providers),
+
+	- Start trace: \\wospnp2.intel.com\Users\HNGT\skl$\Hybrid\Cobalt-ETL-Scripts\start_complete_trace_hgsPlus.cmd
+	- Stop trace: \\wospnp2.intel.com\Users\HNGT\skl$\Hybrid\Cobalt-ETL-Scripts\stop_trace.cmd
+

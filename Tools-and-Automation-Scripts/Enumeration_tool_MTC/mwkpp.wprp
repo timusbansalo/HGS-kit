@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone='yes'?>
+<WindowsPerformanceRecorder Version="1.0" Author="EcoSystem Performance Platform" Team="EcoSystem Performance Platform" Comments="Test" Company="Microsoft Corporation" Copyright="Microsoft Corporation" Tag="BuiltIn">
+    <Profiles>
+
+        <!-- System Collectors -->
+        <!-- <SystemCollector Id="SystemCollector_WPRWinStoreAppPerfInFile" Base="SystemCollector_WPRSystemCollectorInFile" Name="NT Kernel Logger" Realtime="false"> -->
+        <!-- <SystemCollector Id="SystemCollector_WPRWinStoreAppPerfInFile" Base="SystemCollector_WPRSystemCollectorInFile" Name="NT Kernel Logger" Realtime="false"> -->
+            <!-- <BufferSize Value="1024"/> -->
+        <!-- </SystemCollector> -->
+
+        <!-- Event Collectors -->
+        <!-- ///////////// There are no local event collector, because we depending on the default base collector. \\\\\\\\\\\\\\\\\\\\\\ -->
+
+        <!-- System Providers -->
+        <SystemProvider Id="SystemProvider_WinStoreAppPerf" Base="SystemProvider_Base">
+            <!-- <Keywords Operation="Add"> -->
+                <!-- <Keyword Value="IdleStates"/> -->
+            <!-- </Keywords> -->
+        </SystemProvider>
+
+
+        <!-- Event Providers -->
+        <EventProvider Id="EventProvider_Microsoft-Windows-Kernel-Processor-Power" Name="Microsoft-Windows-Kernel-Processor-Power" NonPagedMemory="true" Level="6">
+		  <Keywords>
+			<Keyword Value="0xFFFFFFFF"/>
+		  </Keywords>
+		  <CaptureStateOnSave>
+			<Keyword Value="0xFFFFFFFF"/>
+		  </CaptureStateOnSave>
+		</EventProvider>
+		
+        <Profile Id="WinKernelProcessorPowerProfile.Verbose.File" Name="WinKernelProcessorPowerProfile" Description="Microsoft Windows Kernel Processor Power Profile" DetailLevel="Verbose" Base="" LoggingMode="File">
+            <Collectors>
+                <!-- <SystemCollectorId Value="SystemCollector_WPRWinStoreAppPerfInFile"> -->
+                    <!-- <SystemProviderId Value="SystemProvider_WinStoreAppPerf" /> -->
+                <!-- </SystemCollectorId> -->
+                <EventCollectorId Value="EventCollector_WPREventCollectorInFile">
+                    <BufferSize Value="1024"/>
+                    <EventProviders>
+						<EventProviderId Value="EventProvider_Microsoft-Windows-Kernel-Processor-Power" />
+                    </EventProviders>
+                </EventCollectorId>
+            </Collectors>
+        </Profile>
+        <Profile Id="WinKernelProcessorPowerProfile.Verbose.Memory" Name="WinKernelProcessorPowerProfile" Description="Microsoft Windows Kernel Processor Power Profile" DetailLevel="Verbose" Base="WinKernelProcessorPowerProfile.Verbose.File" LoggingMode="Memory"/>
+    </Profiles>
+</WindowsPerformanceRecorder>

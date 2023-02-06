@@ -1,0 +1,15 @@
+﻿  process_depth.cpp
+  process_depth_ST.cpp
+  gatherton_main.cpp
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(48,9): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type '__int64'
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(48,9): message : consider using '%lld' in the format string
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(48,9): message : consider using '%Id' in the format string
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(48,9): message : consider using '%I64d' in the format string
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(61,28): warning C4552: '+': result of expression not used
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(62,49): warning C4312: 'type cast': conversion from 'unsigned int' to '__m256i *' of greater size
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(694,6): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\src\gatherton_main.cpp(691,7): warning C4101: 'status': unreferenced local variable
+  vector_procs.cpp
+  vector_procs_ST.cpp
+  Generating Code...
+  Gatherton.vcxproj -> C:\Users\sumitban\OneDrive - Intel Corporation\Documents\GitHub\HGS-kit\Tools-and-Automation-Scripts\AVX2Gather\x64\Debug\Gatherton.exe

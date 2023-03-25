@@ -1,0 +1,28 @@
+Usage:
+The following flags are mandatory,
+ -i input etl filename
+ -o output csv filename
+ -big Decimal equivalent of Bit mask of Big core indexes
+ -small Decimal Equivalent of Bit mask of Small core indexes
+ - r <start time> <end time>
+
+Example: Big cores at Index 0 and 1, Small Cores at Index 2 and 3
+
+WosHeteroStats.exe -i .\test.etl -o .\test.csv -big 3 -small 12
+
+(HGS Statistics can be found at the end of teh output file.)
+
+2+4+2 MTL emu noSMT: -big 0x3f -small 0xc0 -smt 0x0 -mtl
+6+4+2 MTL emu noSMT: -big 0x3ff -small 0xc00 -smt 0x0 -mtl
+6+8+2 MTL SMT: -big 0xfffff -small 0x300000 -smt 0xfff -mtl
+
+updated WosHeteroStats: 2022.45.5
+----------------------------
+6+4+2 noSMT emu: -big 0x3f -small 0xfc0 -smt 0x0 -cDie 0x3ff -socDie 0xc00
+screwed up 6+8+2 SMT core ordering: -big 0x0FFC03 -small 0x3003FC -smt 0x0FFC03 -cDie 0xFFFFF -socDie 0x300000
+
+
+sample command :
+===================
+
+WosHeteroStats_ExternalAlpha2.exe -i inp.etl -o out.csv -big 0x0FFC03 -small 0x3003FC -smt 0x0FFC03 -cDie 0xFFFFF -socDie 0x300000 -hgsplus -r 1390000 19240000

@@ -1,0 +1,2 @@
+set EMON_DATA=%1
+python edp.py -i %EMON_DATA% -o %EMON_DATA:~0,-4%.xlsx -m bigcore="c:\Program Files (x86)\IntelSWTools\sep\config\edp\redwoodcove_1s_private.xml" smallcore="c:\Program Files (x86)\IntelSWTools\sep\config\edp\crestmont_1s_private.xml" --socket-view --core-view --thread-view
